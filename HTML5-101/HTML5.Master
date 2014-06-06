@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HTML5.master.cs" Inherits="HTML5_101.HTML5" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>From Zero to HTML 5</title>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+  <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <form id="mainForm" runat="server">
+  <div>
+    <nav>
+      <a href="NavHeadFoot.aspx" class="bigNav">Header/Footer</a>
+      <a href="Meter.aspx" class="bigNav">Meter</a>
+      <a href="Figure.aspx" class="bigNav">Figure</a>
+      <a href="OrderedListReverse.aspx" class="bigNav">ol reversed</a>
+      <a href="Video.aspx" class="bigNav">Video</a>
+      <a href="FileUpload.aspx" class="bigNav">File</a>
+      <a href="Output.aspx" class="bigNav">Output</a>
+      <a href="Progress.aspx" class="bigNav">Progress</a>
+      <a href="BoxSizing.aspx" class="bigNav">Box Sizing</a>
+      <a href="Article.aspx" class="bigNav">Article</a>
+      <a href="ArticleAside.aspx" class="bigNav">Aside</a>
+      <a href="Canvas.aspx" class="bigNav">Canvas</a>
+      <a href="SVGSample.aspx" class="bigNav">SVG</a>
+      <a href="InputTypes.aspx" class="bigNav">Input Types</a>
+      <a href="FormStuff.aspx" class="bigNav">Forms</a>
+      <a href="Placeholder.aspx" class="bigNav">Placeholder</a>
+      <a href="Pattern.aspx" class="bigNav">Pattern</a>
+    </nav>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+  </div>
+  </form>
+</body>
+</html>
